@@ -17,3 +17,17 @@ header {
     85% { background-color: #9400d3; }
     100% { background-color: #ff0000; }
   }
+  .caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+  }
+  nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+  }
+  nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+  }
