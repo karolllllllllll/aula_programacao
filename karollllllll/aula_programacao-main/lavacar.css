@@ -1,0 +1,65 @@
+header {
+    background-color: #333; /* Cor de fundo padrão */
+    color: #fff; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+  
+    /* Adicionando a animação de arco-íris */
+    animation: rainbow 10s infinite;
+  }
+  
+  @keyframes rainbow {
+    0% { background-color: #ff0000; }
+    14% { background-color: #ff7f00; }
+    28% { background-color: #ffff00; }
+    42% { background-color: #00ff00; }
+    57% { background-color: #0000ff; }
+    71% { background-color: #4b0082; }
+    85% { background-color: #9400d3; }
+    100% { background-color: #ff0000; }
+  }
+  .caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+  }
+  nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+  }
+  nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+  }
+  nav a{
+    text-transform: uppercase;
+    color: #9400d3;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration-skip-ink;
+
+
+  }
+  nav a:hover{
+    color: #ff0000;
+    text-decoration: none;
+  }
+  .Produtos{
+    width: 1500px;
+    margin: 0 auto;
+    padding: 55px 0;
+  }
+  .Produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+
+
+  
